@@ -7,13 +7,11 @@ public class Blue : MonoBehaviour
     public CharacterController controller;
     public float speed = 1f;
     public bool blue;
-    private RedScript redScript;
-    private GreenScript greenScript;
-    private YellowScript yellowScript;
+    
 
     void Update()
     {
-        redScript = GameObject.Find ("")
+        
         if (Input.GetButtonDown("X Button"))
         {
             blue = !blue;

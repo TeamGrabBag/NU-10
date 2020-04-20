@@ -53,6 +53,7 @@ public class pausemenu : MonoBehaviour
     public void LoadMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        GameObject.FindGameObjectWithTag("Music").GetComponent<music>().StopMusic();
     }
 
 }
