@@ -15,6 +15,10 @@ public class Green : MonoBehaviour
         {
             green = !green;
         }
+        if (Input.GetButtonDown("Y Button") || Input.GetButtonDown("B Button") || Input.GetButtonDown("X Button"))
+        {
+            green = false;
+        }
     }
 
     // Update is called once per frame

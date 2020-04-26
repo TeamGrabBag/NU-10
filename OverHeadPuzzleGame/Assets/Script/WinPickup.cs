@@ -8,7 +8,7 @@ public class WinPickup : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-            SceneManager.LoadScene("Win Menu");
+            Destroy(this.gameObject);
 
 
 

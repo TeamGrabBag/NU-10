@@ -16,6 +16,10 @@ public class Blue : MonoBehaviour
         {
             blue = !blue;
         }
+        if (Input.GetButtonDown("A Button") || Input.GetButtonDown("B Button") || Input.GetButtonDown("Y Button"))
+        {
+            blue = false;
+        }
     }
 
     // Update is called once per frame
