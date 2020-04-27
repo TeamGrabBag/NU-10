@@ -9,6 +9,7 @@ public class Laser : MonoBehaviour
     void Start()
     {
         lr = GetComponent<LineRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -25,4 +26,5 @@ public class Laser : MonoBehaviour
         }
         else lr.SetPosition(1, transform.forward * 5000);
     }
+   
 }
